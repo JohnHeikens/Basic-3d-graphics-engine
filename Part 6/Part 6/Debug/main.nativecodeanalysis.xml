@@ -1,0 +1,1032 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>29</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>Using uninitialized memory 'px'.</DESCRIPTION>
+    <FUNCTION>onFrame</FUNCTION>
+    <DECORATED>?onFrame@@YAXPAUcolor@@@Z</DECORATED>
+    <FUNCLINE>21</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>23</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>25</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>26</LINE>
+        <COLUMN>4</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'px' is not initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>27</LINE>
+        <COLUMN>4</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>28</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>28</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'x&lt;width')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>29</LINE>
+        <COLUMN>5</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'px' is an Input to 'cos' (declared at c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h:475)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>30</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>29</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'px' is used, but may not have been initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>78</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>28183</DEFECTCODE>
+    <DESCRIPTION>'hbmp' could be '0', and is a copy of the value found in 'CreateDIBSection()`68':  this does not adhere to the specification for the function 'SelectObject'. </DESCRIPTION>
+    <FUNCTION>MakeSurface</FUNCTION>
+    <DECORATED>?MakeSurface@@YAXPAUHWND__@@@Z</DECORATED>
+    <FUNCLINE>43</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\gebruiker\documents\github\basic-3d-graphics-engine\part 6\part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>49</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\gebruiker\documents\github\basic-3d-graphics-engine\part 6\part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>50</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\gebruiker\documents\github\basic-3d-graphics-engine\part 6\part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>51</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\gebruiker\documents\github\basic-3d-graphics-engine\part 6\part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>52</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\gebruiker\documents\github\basic-3d-graphics-engine\part 6\part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>53</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\gebruiker\documents\github\basic-3d-graphics-engine\part 6\part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>54</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\gebruiker\documents\github\basic-3d-graphics-engine\part 6\part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>55</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\gebruiker\documents\github\basic-3d-graphics-engine\part 6\part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>56</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\gebruiker\documents\github\basic-3d-graphics-engine\part 6\part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>57</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\gebruiker\documents\github\basic-3d-graphics-engine\part 6\part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>58</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\gebruiker\documents\github\basic-3d-graphics-engine\part 6\part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>59</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\gebruiker\documents\github\basic-3d-graphics-engine\part 6\part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>60</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\gebruiker\documents\github\basic-3d-graphics-engine\part 6\part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>61</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\gebruiker\documents\github\basic-3d-graphics-engine\part 6\part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>62</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\gebruiker\documents\github\basic-3d-graphics-engine\part 6\part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>63</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\gebruiker\documents\github\basic-3d-graphics-engine\part 6\part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>64</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\gebruiker\documents\github\basic-3d-graphics-engine\part 6\part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>65</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\gebruiker\documents\github\basic-3d-graphics-engine\part 6\part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>66</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\gebruiker\documents\github\basic-3d-graphics-engine\part 6\part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>68</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\gebruiker\documents\github\basic-3d-graphics-engine\part 6\part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>69</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\gebruiker\documents\github\basic-3d-graphics-engine\part 6\part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>70</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\gebruiker\documents\github\basic-3d-graphics-engine\part 6\part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>72</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\gebruiker\documents\github\basic-3d-graphics-engine\part 6\part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>73</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\gebruiker\documents\github\basic-3d-graphics-engine\part 6\part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>75</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\gebruiker\documents\github\basic-3d-graphics-engine\part 6\part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>77</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\gebruiker\documents\github\basic-3d-graphics-engine\part 6\part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>78</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>119</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>28251</DEFECTCODE>
+    <DESCRIPTION>Inconsistent annotation for 'WinMain': this instance has no annotations. See c:\program files (x86)\windows kits\10\include\10.0.17763.0\um\winbase.h(913). </DESCRIPTION>
+    <FUNCTION>WinMain</FUNCTION>
+    <DECORATED>WinMain@16</DECORATED>
+    <FUNCLINE>119</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>253</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'p2d'. </DESCRIPTION>
+    <FUNCTION>DrawTriangles</FUNCTION>
+    <DECORATED>?DrawTriangles@@YAXPAUvec3@@PAHPAUcolor@@HHNU1@Umat3x3@@_N@Z</DECORATED>
+    <FUNCLINE>214</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>216</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>220</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>220</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>221</LINE>
+        <COLUMN>4</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>224</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>225</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>227</LINE>
+        <COLUMN>12</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'vertices2D' may be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>228</LINE>
+        <COLUMN>5</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>alias</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>(alias) 'PointerVector' receives the value of 'vertices2D' (which may be NULL)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>231</LINE>
+        <COLUMN>5</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>alias</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>(alias) 'p2d' receives the value of 'PointerVector' (which may be NULL)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>232</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>233</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>234</LINE>
+        <COLUMN>12</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'p3d&lt;end')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>237</LINE>
+        <COLUMN>3</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>238</LINE>
+        <COLUMN>3</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>239</LINE>
+        <COLUMN>3</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>241</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>242</LINE>
+        <COLUMN>11</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'maty&lt;=0.000000' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>249</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>250</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>253</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'p2d' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>276</LINE>
+      <COLUMN>3</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'v2'. See line 275 for an earlier location where this can occur</DESCRIPTION>
+    <FUNCTION>DrawTriangles</FUNCTION>
+    <DECORATED>?DrawTriangles@@YAXPAUvec3@@PAHPAUcolor@@HHNU1@Umat3x3@@_N@Z</DECORATED>
+    <FUNCLINE>214</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>216</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>220</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>220</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>221</LINE>
+        <COLUMN>4</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>224</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>225</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>227</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>228</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>231</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>232</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>233</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>234</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>262</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>263</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>263</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>267</LINE>
+        <COLUMN>3</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>268</LINE>
+        <COLUMN>3</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>269</LINE>
+        <COLUMN>3</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>270</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>271</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'v2' may be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>272</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>273</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>275</LINE>
+        <COLUMN>3</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>276</LINE>
+        <COLUMN>3</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'v2' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>275</LINE>
+      <COLUMN>3</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'v1'. </DESCRIPTION>
+    <FUNCTION>DrawTriangles</FUNCTION>
+    <DECORATED>?DrawTriangles@@YAXPAUvec3@@PAHPAUcolor@@HHNU1@Umat3x3@@_N@Z</DECORATED>
+    <FUNCLINE>214</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>216</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>220</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>220</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>221</LINE>
+        <COLUMN>4</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>224</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>225</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>227</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>228</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>231</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>232</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>233</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>234</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>262</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>263</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>263</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>267</LINE>
+        <COLUMN>3</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>268</LINE>
+        <COLUMN>3</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>269</LINE>
+        <COLUMN>3</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>270</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'v1' may be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>271</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>272</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>273</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>275</LINE>
+        <COLUMN>3</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'v1' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>277</LINE>
+      <COLUMN>3</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'v3'. See line 275 for an earlier location where this can occur</DESCRIPTION>
+    <FUNCTION>DrawTriangles</FUNCTION>
+    <DECORATED>?DrawTriangles@@YAXPAUvec3@@PAHPAUcolor@@HHNU1@Umat3x3@@_N@Z</DECORATED>
+    <FUNCLINE>214</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>216</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>220</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>220</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>221</LINE>
+        <COLUMN>4</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>224</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>225</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>227</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>228</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>231</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>232</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>233</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>234</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>262</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>263</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>263</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>267</LINE>
+        <COLUMN>3</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>268</LINE>
+        <COLUMN>3</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>269</LINE>
+        <COLUMN>3</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>270</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>271</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>272</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'v3' may be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>273</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>275</LINE>
+        <COLUMN>3</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>276</LINE>
+        <COLUMN>3</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>277</LINE>
+        <COLUMN>3</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'v3' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>434</LINE>
+      <COLUMN>3</COLUMN>
+    </SFA>
+    <DEFECTCODE>6269</DEFECTCODE>
+    <DESCRIPTION>Possibly incorrect order of operations:  dereference ignored.</DESCRIPTION>
+    <FUNCTION>FillCircle</FUNCTION>
+    <DECORATED>?FillCircle@@YAXNNNNUcolor@@@Z</DECORATED>
+    <FUNCLINE>410</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>447</LINE>
+      <COLUMN>36</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>FillRectangle</FUNCTION>
+    <DECORATED>?FillRectangle@@YAXNNNNUcolor@@@Z</DECORATED>
+    <FUNCLINE>443</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\gebruiker\Documents\Github\Basic-3d-graphics-engine\Part 6\Part 6\</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>447</LINE>
+      <COLUMN>55</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>FillRectangle</FUNCTION>
+    <DECORATED>?FillRectangle@@YAXNNNNUcolor@@@Z</DECORATED>
+    <FUNCLINE>443</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>
