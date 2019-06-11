@@ -2,9 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\Part 2",
-    "\\Part 2\\Engine3D",
-    "\\Part 2\\Engine3D\\Engine3D"
+    "\\Part 2\\Engine3D\\Engine3D",
+    "\\Part 8"
   ],
-  "SelectedNode": "\\Part 2\\Engine3D\\Engine3D\\Engine3D.vcxproj.filters",
+  "SelectedNode": "\\Part 8\\Debug",
   "PreviewInSolutionExplorer": false
 }
